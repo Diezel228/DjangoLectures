@@ -1,0 +1,19 @@
+h1{
+    font-family: "Moo Lah Lah";
+    font-size: 500%;
+}
+/*CSS box model  margin(border(padding(content)))//(google-image)*/
+#up{
+    font-size: xx-large;
+    text-align: center;
+    border: 20px solid gold;
+    margin: 5px 3% 20px 35%;
+    padding: 3px solid rgb(179, 14, 16);
+}
+#down{/*idk just know you can do it lol*/
+    font-size: xx-large;
+    text-align: center;
+    border: 20px solid rgb(69, 30, 186);
+    margin: 5px 3% 20px 10px;
+    padding: 3px solid rgb(179, 14, 16);
+}

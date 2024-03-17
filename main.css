@@ -1,9 +1,39 @@
+body{
+    background-color: rgb(97, 170, 170);
+    /*background-image:sweetThing.webp;*/
+}
 h1{
     color: brown;
     background-color: rgba(45, 132, 76, 0.388);
-
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-/*comments please!!!*/
+/*CSS specificity affects the output order */
 p{
     color: rgba(40, 11, 76, 0.603);
+}
+
+div{
+    background-color: rgba(0, 128, 0, 0.593);
+    border-color: orange;
+    border-width: 5px;
+    border-style: dashed;
+}
+span{
+    background-color: rgb(42, 24, 24);
+}
+/*span will override div*/
+
+.myclass{/*its ok/acceptedt to use multiple classes on a page*/
+    color: #801717;
+    text-align: center;
+}
+
+#pw{/*ID used for single instance(unique ID)*/
+    background-color: blueviolet;
+}
+#email{
+    background-color: blueviolet;
+}
+#left-align{
+    text-align: left;
 }
