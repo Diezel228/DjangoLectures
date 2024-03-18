@@ -9,8 +9,15 @@ body{
 }
 .btn-danger:hover{
     background-color: blueviolet;
-
 }
+
+.extra{
+    border: 5px solid grey;
+    border-radius: 3%;
+    border-color: black;
+    border-style: dashed;
+}
+
 #thesethings{
     background-color: rgba(63, 63, 131, 0.511);
 }
