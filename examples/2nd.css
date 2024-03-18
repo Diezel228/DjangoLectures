@@ -1,6 +1,8 @@
 h1{
     font-family: "Moo Lah Lah";
+    font-family: "neon";
     font-size: 500%;
+    font-effect-neon: "neon";
 }
 /*CSS box model  margin(border(padding(content)))//(google-image)*/
 #up{

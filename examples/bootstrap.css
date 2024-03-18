@@ -1,0 +1,16 @@
+body{
+    background-color: aquamarine;
+}
+.bg-body-tertiary{
+    background-color: rgba(63, 63, 131, 0.511);
+}
+.btn-danger{
+    background-color: blue;
+}
+.btn-danger:hover{
+    background-color: blueviolet;
+
+}
+#thesethings{
+    background-color: rgba(63, 63, 131, 0.511);
+}

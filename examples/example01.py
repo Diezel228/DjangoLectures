@@ -25,3 +25,9 @@ my_dict["guest04"] = "Sara"#adding new key/value pair
 my_dict["guest02"] = "Mark"#updating value
 print(my_dict)
 #print(my_dict["guest01"])
+
+stock_prices = {"GOOGL":[200,210,220],"GME":[20,100,300]}
+history = stock_pricesp[GOOGL]
+
+print(f"fist day price is: {history[0]}")
+
