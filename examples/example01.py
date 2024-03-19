@@ -65,7 +65,37 @@ for position in employees:#naming iterations position
     print(employees.items())
 
 #tuple unpacking/////////////////////////////////////////////////
-listy = [("a","b"),("c","d"),(1,2)]
+listy = [("a","b"),("c","d"),(1,2)]#list with tuples inside
 for item1,item2 in listy:             #use when you know your list 
     print(item2)
     print(item1)
+
+
+
+#while looops
+blah = 0
+while blah < 5:
+    print(f"do ITITITITIITIT number: {blah}")
+    blah = blah+1
+
+
+#functions
+def my_function(name,num1,num2): #snake casing is convention for python functions.
+    '''
+    the "Docstring" explains a function via help()
+    '''
+    print("hello " +name)#displays to "console"
+    return num1+num2#can save to variable
+
+new_var = my_function('daniel',2,54)#56(sum) will no be returned unless assigned to var
+print(new_var)
+
+datastream = [1,2,4,5,4,3,2,4,6,7,8,10,36,35,5]
+def checker(list_to_check):
+    for num in list_to_check:
+        if num == 10:
+            return True
+        #return at last indent instead of else in this scope so it doesnt stop on 1st item.
+    return False
+
+print(checker(datastream))
