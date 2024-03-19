@@ -27,7 +27,45 @@ print(my_dict)
 #print(my_dict["guest01"])
 
 stock_prices = {"GOOGL":[200,210,220],"GME":[20,100,300]}
-history = stock_pricesp[GOOGL]
+history =stock_prices["GOOGL"]
 
 print(f"fist day price is: {history[0]}")
 
+#my_dict = my_dict["guest01"] = {"OUTER": {"INNER": 100}}
+#print(mydict["OUTER"]["INNER"])
+print(my_dict.values(), my_dict.items(), my_dict.keys())
+
+#tuples are immutable :) less methods too than list yeahh!!!!! .items() returns key/value pairs
+my_tuple = (1,2,3,4)
+print(my_tuple)#think constants
+
+#if elif else
+
+password = "mypassword"
+stored_pw = "mypassword"
+admin = False 
+
+if password == stored_pw and admin:#admin first is no fun
+    print("pw match!")
+elif admin:
+    print("not granted")
+else:
+    print("no pw match")
+
+for i in my_tuple:
+    print("hello")
+
+employees = {'ceo': 'cindy','cfo':'james'}
+for position in employees:#naming iterations position
+    print(f"the {position} is held by {employees[position]}")
+    print(employees["ceo"])
+    #1st:entering the key returns the values. 
+    #2nd:We pass key back to dict as the param for employees returning value per key lol.
+    #name each key position and for each position .......
+    print(employees.items())
+
+#tuple unpacking/////////////////////////////////////////////////
+listy = [("a","b"),("c","d"),(1,2)]
+for item1,item2 in listy:             #use when you know your list 
+    print(item2)
+    print(item1)
