@@ -30,11 +30,14 @@ print(x.name)
 
 #class example number 2
 class Student():
+
+    planet="Earth" #CLASS OBJECT ATTRIBUTE(does not need self.) self sets stuff inside the functions to global!
     def __init__(self,name,gpa):
-        self.name = name
+        self.name = name #ATTRIBUTE
         self.gpa = gpa
 
 
 stu1 = Student(name="daniel",gpa="3.9!!!!")
 stu2 = Student(name="yaya",gpa="3.8!!!!")
 print(f"student results: \n\t{stu1.name,stu1.gpa}\n\t{stu2.name,stu2.gpa}")#you can't call the var name as a key(returns memory location), your calling the class and its methods!!
+print(Student.planet)
