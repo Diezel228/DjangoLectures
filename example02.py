@@ -40,4 +40,35 @@ class Student():
 stu1 = Student(name="daniel",gpa="3.9!!!!")
 stu2 = Student(name="yaya",gpa="3.8!!!!")
 print(f"student results: \n\t{stu1.name,stu1.gpa}\n\t{stu2.name,stu2.gpa}")#you can't call the var name as a key(returns memory location), your calling the class and its methods!!
-print(Student.planet)
+print(Student.planet)#we dont have to define planet 
+
+class Agent():
+    origin = "USA"
+
+    def __init__(self,name,height,weight):#defining the attributes of an object!!! 
+        self.name =name
+        self.height = height
+        self.weight = weight
+x = Agent("Danni","6'",170)
+x.weight = 160#you can change them butt:) whats the point I guess
+print(x.weight)    
+
+
+#another exxx to the s example!!!! ok kayne.
+class Circle():
+    pi = 3.14
+    def __init__(self,radius):#most get this
+        self.radius = radius
+    def area(self):
+        return self.radius*self.radius*Circle.pi #circle and self work the same like console or log
+    def perimeter(self):
+        return 2 * self.radius * self.pi
+mycircle = Circle(radius=5)
+print(mycircle.radius)
+print(mycircle.area)
+print(mycircle.area())#now it returns our result
+print(mycircle.perimeter())
+
+
+
+#silly method
