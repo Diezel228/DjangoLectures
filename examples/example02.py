@@ -21,7 +21,7 @@ finally:
 """OOP//////////////////////
 
 class NameOfClass():#camelcase
-    def __init__(self,param1,param2) -> None:  #i think this is like the main() in c#
+    def __init__(self,param1,param2) -> None:  #i think this is like the main()
         self.param1=param1
         self.param2=param2
     def some_method(self):
@@ -29,8 +29,3 @@ class NameOfClass():#camelcase
         print("self.param1")
 
 """
-#creating a class "Sample"
-class Sample():#you dont always need the ()
-    pass
-num = Sample()
-print(type(num))
