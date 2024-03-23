@@ -1,6 +1,7 @@
 #also modules :)
-from python.mymodule import useful_func #import from and call on line:26 ()
-from python.mymodule import UsefullClass #followed by making an instance of the class
+from mymodule import useful_func #import from and call on line:26 ()  ///local imports
+from mymodule import UsefullClass #followed by making an instance of the class
+from mypackage.mysubmodule import my_sub_func  #imports from directories so relative 
 my_instance = UsefullClass("HEllo")
 
 
@@ -27,4 +28,5 @@ print(len(mybook))
 useful_func()
 #remember print(my_instance) will display mem location. 
 my_instance.report()
+my_sub_func()
         
